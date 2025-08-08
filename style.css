@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e1e2f;
+  color: #fff;
+}
+
+header {
+  background-color: #fffff;
+  padding: 5px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 4em;
+  color: #00ffe7;
+}
+
+header p {
+  margin-top: 4px;
+  color: #aaa;
+}
+
+.produk-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px;
+}
+
+.produk-card {
+  background-color: #2f3147;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+}
+
+.produk-card:hover {
+  transform: scale(1.05);
+}
+
+.produk-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.produk-card h3 {
+  margin: 10px 0 5px;
+  color: #00ffe7;
+}
+
+.harga {
+  color: #ffdd57;
+  font-weight: bold;
+}
+
+button {
+  background-color: #00ff00;
+  color: #000000;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #00c8b5;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #27293d;
+  font-size: 0.9em;
+  color: #aaa;
+}
